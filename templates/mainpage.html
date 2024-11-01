@@ -1,0 +1,242 @@
+<html lang="en-US">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,\
+maximum-scale=1, user-scalable=no">
+<meta name="robots" content="index, follow, \
+max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="description" content="This is the main page of the website.">
+<title>womanhealth</title>
+
+    <style>
+        .women-health-section .header {
+            text-align: center;
+            margin: 10px 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .women-health-section .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .women-health-section .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .women-health-section .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .women-health-section .card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .women-health-section .card h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .women-health-section .view-all-button {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 15px 30px;
+            background-color: #0066ff;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .women-health-section .view-all-button:hover {
+            background-color: #0052cc;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="headline-womenhealth">
+        <div class="navigation-1" style="
+            background-color: black; 
+            padding: 20px 0;
+            display: flex; /* 使得子元素水平排列 */
+            justify-content: space-between;/* 使得子元素左右对齐 */
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        ">
+            <!-- 左侧标语 -->
+            <p style="
+                color: white;
+                margin: 0;
+                font-size: 12px;
+            ">致力于女性健康</p>
+    
+            <!-- 右侧导航 -->
+            <nav>
+                <ul style="
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    gap: 50px;
+                ">
+                    <li><a href="/" style="
+                        color: white;
+                        font-size: 12px;
+                        text-decoration: none;
+                    ">首页</a></li>
+                    <li><a href="/about" style="
+                        color: white;
+                        font-size: 12px;
+                        text-decoration: none;
+                    ">关于我们</a></li>
+                    <li><a href="/services" style="
+                        color: white;
+                        font-size: 12px;
+                        text-decoration: none;
+                    ">服务</a></li>
+                    <li><a href="/contact" style="
+                        color: white;
+                        font-size: 12px;
+                        text-decoration: none;
+                    ">联系我们</a></li>
+                </ul>
+            </nav>
+        </div> 
+  
+        <div class="navigation-2" style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        background-color: #ffffff;">
+            <div class="icon">
+                <img src="https://cdn.jsdelivr.net/gh/" width="400" height="80">
+            </div>
+            <div class="search-engine" style="display: flex; gap:10px; align-items: center;">
+                <input type="text" placeholder="搜索" style="
+                    width: 300px;
+                    height: 40px;
+                    border-radius: 10px;
+                    border: 1px solid #000000;
+                    padding-left: 10px;
+                ">
+                <button style="
+                    width: 20%;
+                    height: 40px;
+                    border-radius: 10px;
+                    border: 1px solid #000000;
+                    background-color: #000000;
+                    color: white;
+                ">搜索</button>
+        </div>
+    </div>
+
+    <div class="gemini-line">
+        <!--这里是端口的文字-->
+        <div class="gemini-line-text" style="
+            display: flex;
+            justify-content: left;
+            height: 5vh;
+            margin: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgb(15, 14, 14);">
+            <h1 style="font-size: 20px;">这里做一个gemini的端口</h1>
+        </div>
+        <!--这里是端口-->
+        <div class="gemini-line-port" style="
+            display: flex;
+            justify-content: center;
+            height: 50vh;
+            margin: 30px;
+            background-color: antiquewhite;
+            padding-left: 20px;">
+    </div>
+            
+    <div class="women-health-section">
+        <h1 class="header">探索女性健康领域</h1>
+    
+        <div class="grid-container">
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="疾病预防">
+                <h3>疾病预防</h3>
+                <p>关注女性常见疾病预防与早期筛查</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="生理健康">
+                <h3>生理健康与周期管理</h3>
+                <p>经期健康管理与生理周期跟踪</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="心理健康">
+                <h3>心理健康</h3>
+                <p>情绪管理与心理咨询支持</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="孕产健康">
+                <h3>孕产健康</h3>
+                <p>孕期保健与产后恢复指导</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="体重管理">
+                <h3>体重管理与运动</h3>
+                <p>科学饮食与适合女性的运动方案</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="睡眠健康">
+                <h3>睡眠健康</h3>
+                <p>改善睡眠质量的专业建议</p>
+            </div>
+    
+            <div class="card">
+                <img src="/api/placeholder/80/80" alt="职业健康">
+                <h3>职业健康</h3>
+                <p>职场压力管理与工作生活平衡</p>
+            </div>
+        </div>
+    
+        <a href="#" class="view-all-button">查看全部</a>
+    </div>
+
+    </body>
+    </html>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
